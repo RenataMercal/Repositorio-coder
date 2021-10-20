@@ -1,0 +1,38 @@
+.intro {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  color: #b0b0b0;
+}
+.nosotros {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2rem;
+  color: #b0b0b0;
+}
+.nosotros__titulo {
+  color: #a44ba6;
+  font-size: x-large;
+}
+.marcas {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #737373;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+.marcas__fotos {
+  align-items: center;
+}
+
+$violeta: #9b359c;
+$gris: #636363;
+.descripcion {
+  font-size: medium;
+  text-align: center;
+  color: $gris;
+}
