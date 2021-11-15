@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/logosolo32.png" />
+
+    <title>Contacto empresa</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <a href="index.html">
+            <img class="logo" src="img/logo1.png" alt="Logo Viberig" />
+          </a>
+          <nav class="menu">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-links">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a href="productos.html" class="nav-links">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a href="empresa.html" class="nav-links">EMPRESA</a>
+              </li>
+              <li class="nav-item">
+                <a href="contacto.html" class="nav-links">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a href="iniciarsesion.html" class="nav-links">
+                  INICIAR SESIÓN</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <form id="form-contacto" action="">
+      <fieldset id="form">
+        <legend id="form2">FORMULARIO DE CONTACTO</legend>
+        <label class="casillero" for="nombre">Nombre y Apellido: </label>
+        <input type="text" name: nombre id="nombre">
+        <br />
+        <label class="casillero" for="apellido">Empresa: </label>
+        <input type="text" name: apellido id="empresa">
+        <br />
+        <label class="casillero" for="mail">E-mail: </label>
+        <input type="text"name: mail id="mensaje">
+        <br />
+
+        <br />
+
+        <div class="casillero">Consulta</div>
+        <select class="casillero" name="mensaje" id="mensaje">
+          <option value="Mayorista">Mayorista</option>
+          <option value="Minorisya">Minorista</option>
+        </select>
+
+        <textarea name="compra" id="compra" cols="30" rows="10"></textarea>
+        <input class="casillero" type="submit" value="Enviar" />
+        <input class="casillero" type="reset" value="Anular mensaje" />
+      </fieldset>
+    </form>
+    <br />
+    <div>
+      <h2 id="contact">INFO CONTACTO</h2>
+      <ul>
+        <li class="infoContact1">
+          <img class="img" src="./img/wppp.png" alt="" />
+          <a href="https://wa.me/+5491158593718">+54 9 11-4759-6584</a>
+        </li>
+        <li class="infoContact2">
+          <img class="img" src="./img/email.png" alt="" />
+          <a href="mailto:renatamercal@gmail.com"
+            >distribuidoraviberig@hotmail.com.ar</a
+          >
+        </li>
+
+        <li class="infoContact3">
+          <img class="img" src="./img/marcador-de-posicion.png" alt="" />
+          <a href="https://goo.gl/maps/jS62sXk2UzLZH5rF7"
+            >Avenida Presidente Perón 3930 - Haedo, Buenos Aires</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.822876735776!2d-58.62019748519413!3d-34.63391606660273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb897383d2545%3A0xa2d0533e0c473acd!2sAv.%20Pres.%20Per%C3%B3n%203930%2C%20Haedo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1631745707752!5m2!1ses!2sar"
+        width="400"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      >
+      </iframe>
+    </div>
+  </body>
+</html>
